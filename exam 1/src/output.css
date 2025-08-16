@@ -177,9 +177,6 @@
   }
 }
 @layer utilities {
-  .my-\[50px\] {
-    margin-block: 50px;
-  }
   .mt-\[50px\] {
     margin-top: 50px;
   }
@@ -189,47 +186,8 @@
   .flex {
     display: flex;
   }
-  .table {
-    display: table;
-  }
-  .h-\[100px\] {
-    height: 100px;
-  }
-  .h-\[310px\] {
-    height: 310px;
-  }
-  .h-\[400px\] {
-    height: 400px;
-  }
-  .w-\[64\] {
-    width: 64;
-  }
-  .w-\[100px\] {
-    width: 100px;
-  }
   .w-\[283px\] {
     width: 283px;
-  }
-  .w-\[312px\] {
-    width: 312px;
-  }
-  .w-\[400px\] {
-    width: 400px;
-  }
-  .w-\[640\] {
-    width: 640;
-  }
-  .w-\[648\] {
-    width: 648;
-  }
-  .w-\[848\] {
-    width: 848;
-  }
-  .border-collapse {
-    border-collapse: collapse;
-  }
-  .resize {
-    resize: both;
   }
   .list-none {
     list-style-type: none;
@@ -237,20 +195,8 @@
   .flex-col {
     flex-direction: column;
   }
-  .flex-wrap {
-    flex-wrap: wrap;
-  }
-  .items-baseline {
-    align-items: baseline;
-  }
   .items-center {
     align-items: center;
-  }
-  .items-start {
-    align-items: flex-start;
-  }
-  .justify-baseline {
-    justify-content: baseline;
   }
   .justify-between {
     justify-content: space-between;
@@ -261,25 +207,11 @@
   .justify-evenly {
     justify-content: space-evenly;
   }
-  .gap-10 {
-    gap: calc(var(--spacing) * 10);
-  }
-  .gap-20 {
-    gap: calc(var(--spacing) * 20);
-  }
   .gap-50 {
     gap: calc(var(--spacing) * 50);
   }
   .overflow-auto {
     overflow: auto;
-  }
-  .border {
-    border-style: var(--tw-border-style);
-    border-width: 1px;
-  }
-  .border-t {
-    border-top-style: var(--tw-border-style);
-    border-top-width: 1px;
   }
   .border-t-2 {
     border-top-style: var(--tw-border-style);
@@ -294,9 +226,6 @@
   .bg-\[\#FEFBF1\] {
     background-color: #FEFBF1;
   }
-  .p-0 {
-    padding: calc(var(--spacing) * 0);
-  }
   .p-10 {
     padding: calc(var(--spacing) * 10);
   }
@@ -306,63 +235,22 @@
   .text-center {
     text-align: center;
   }
-  .text-start {
-    text-align: start;
-  }
   .text-2xl {
     font-size: var(--text-2xl);
     line-height: var(--tw-leading, var(--text-2xl--line-height));
-  }
-  .text-3xl {
-    font-size: var(--text-3xl);
-    line-height: var(--tw-leading, var(--text-3xl--line-height));
-  }
-  .text-5xl {
-    font-size: var(--text-5xl);
-    line-height: var(--tw-leading, var(--text-5xl--line-height));
-  }
-  .text-6xl {
-    font-size: var(--text-6xl);
-    line-height: var(--tw-leading, var(--text-6xl--line-height));
-  }
-  .text-8xl {
-    font-size: var(--text-8xl);
-    line-height: var(--tw-leading, var(--text-8xl--line-height));
-  }
-  .text-9xl {
-    font-size: var(--text-9xl);
-    line-height: var(--tw-leading, var(--text-9xl--line-height));
   }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
   }
-  .text-\[\#\#FFFFFFB8\] {
-    color: ##FFFFFFB8;
+  .text-\[\#703412\] {
+    color: #703412;
   }
   .text-\[\#FFFFFFB8\] {
     color: #FFFFFFB8;
   }
-  .text-\[\#FFFFFF\] {
-    color: #FFFFFF;
-  }
-  .text-\[CONTACT\] {
-    color: CONTACT;
-  }
   .text-white {
     color: var(--color-white);
-  }
-  .underline {
-    text-decoration-line: underline;
-  }
-  .outline {
-    outline-style: var(--tw-outline-style);
-    outline-width: 1px;
-  }
-  .xs\:w-\[350px\] {
-    @media (width >= 0px) {
-      width: 350px;
-    }
   }
   .xs\:flex-col {
     @media (width >= 0px) {
@@ -384,11 +272,6 @@
       justify-content: space-evenly;
     }
   }
-  .xs\:gap-0 {
-    @media (width >= 0px) {
-      gap: calc(var(--spacing) * 0);
-    }
-  }
   .xs\:gap-5 {
     @media (width >= 0px) {
       gap: calc(var(--spacing) * 5);
@@ -397,16 +280,6 @@
   .xs\:gap-10 {
     @media (width >= 0px) {
       gap: calc(var(--spacing) * 10);
-    }
-  }
-  .xs\:p-0 {
-    @media (width >= 0px) {
-      padding: calc(var(--spacing) * 0);
-    }
-  }
-  .xs\:p-1 {
-    @media (width >= 0px) {
-      padding: calc(var(--spacing) * 1);
     }
   }
   .xs\:text-center {
@@ -424,17 +297,6 @@
     @media (width >= 0px) {
       font-size: var(--text-5xl);
       line-height: var(--tw-leading, var(--text-5xl--line-height));
-    }
-  }
-  .xs\:text-6xl {
-    @media (width >= 0px) {
-      font-size: var(--text-6xl);
-      line-height: var(--tw-leading, var(--text-6xl--line-height));
-    }
-  }
-  .xl\:flex {
-    @media (width >= 500px) {
-      display: flex;
     }
   }
   .xl\:flex-row {
@@ -474,17 +336,11 @@
   syntax: "*";
   inherits: false;
 }
-@property --tw-outline-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
-}
 @layer properties {
   @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
     *, ::before, ::after, ::backdrop {
       --tw-border-style: solid;
       --tw-font-weight: initial;
-      --tw-outline-style: solid;
     }
   }
 }
