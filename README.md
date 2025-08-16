@@ -6,9 +6,9 @@ go for this link to see website [web site for second exam](http://127.0.0.1:5500
 
 ## 📸 Screenshots
 Include a few screenshots to showcase the design or functionality.
-![bussines](./Screenshot%202025-08-16%20164440.png)
-![bussines](./Screenshot%202025-08-16%20164459.png)
-![bussines](./Screenshot%202025-08-16%20164514.png)
+![screen of website](./Screenshot%202025-08-16%20164440.png)
+![screen of website](./Screenshot%202025-08-16%20164459.png)
+![screen of website](./Screenshot%202025-08-16%20164514.png)
 
 ## 🧰 Features
 
